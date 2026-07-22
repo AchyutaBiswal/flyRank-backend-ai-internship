@@ -1,34 +1,53 @@
-# Week 1 - Assignment 1: AI Workflow Audit and Tool Setup
+# Week 1 - General AI Fluency
 
-## 📌 Overview
+## 🚀 Overview
 
-This assignment is part of the **FlyRank Backend AI Engineering Internship – General AI Fluency Track**.
+This folder contains my submissions for **Week 1** of the **FlyRank Backend AI Engineering Internship (July 2026 Cohort)**.
 
-The objective was to analyze my weekly workflow, identify tasks where AI can improve productivity, define measurable success criteria for key activities, and set up the required AI tools for the internship.
-
----
-
-## 🎯 Objectives
-
-- Audit recurring weekly tasks.
-- Classify tasks based on AI involvement.
-- Define "Done Well" criteria for important tasks.
-- Configure the required AI tools.
-- Prepare an AI-powered learning environment.
+During this week, I completed assignments focused on understanding AI-assisted workflows, organizing a professional portfolio, and setting up the essential tools required for the internship.
 
 ---
 
-## 📂 Deliverables
+# 📁 Folder Structure
 
-- ✅ Weekly Workflow Audit
-- ✅ Three Target Tasks
-- ✅ AI Tool Setup Documentation
-- ✅ Assignment Submission PDF
-- ✅ Supporting Screenshots
+```text
+Week-01-General-AI-Fluency/
+│
+├── README.md
+│
+├── 01-AI-Workflow-Audit-and-Tool-Setup/
+│   ├── Achyuta_Biswal_FL-01_AI_Workflow_Audit.pdf
+│   └── screenshots/
+│       ├── anthropic-academy-profile.png
+│       └── claude-ai-learning-assistant-project.png
+│
+└── 02-Portfolio-Sitemap-and-Toolkit/
+    ├── Achyuta_Biswal_FL-02_Portfolio_Sitemap_and_Toolkit.pdf
+    └── screenshots/
+        ├── foundation-progress.png
+        ├── portfolio-sitemap.png
+        └── toolkit-setup.png
+```
 
 ---
 
-## 🛠 Tools Used
+# 📚 Assignment 1 – AI Workflow Audit and Tool Setup
+
+## 📌 Objective
+
+Analyze my weekly learning workflow, identify where AI can improve productivity, and configure the required AI tools for the internship.
+
+### ✅ Deliverables
+
+- Weekly Workflow Audit
+- Three Target Tasks
+- AI Tool Setup Documentation
+- Claude AI Project Setup
+- Anthropic Academy Setup
+- Assignment Submission PDF
+- Supporting Screenshots
+
+### 🛠 Tools Used
 
 - ChatGPT
 - Claude AI
@@ -36,52 +55,66 @@ The objective was to analyze my weekly workflow, identify tasks where AI can imp
 - Git
 - GitHub
 
----
+### 📖 Learning Outcomes
 
-## 📁 Project Structure
-
-```text
-01-AI-Workflow-Audit-and-Tool-Setup/
-│
-├── Achyuta_Biswal_FL-01_AI_Workflow_Audit.pdf
-├── README.md
-└── screenshots/
-    ├── anthropic-academy-profile.png
-    └── claude-ai-learning-assistant-project.png
-```
+- Learned how to classify tasks based on AI involvement.
+- Configured AI tools for daily learning.
+- Improved productivity by integrating AI into my workflow.
+- Practiced documenting technical work professionally.
 
 ---
 
-## 📷 Screenshots
+# 📚 Assignment 2 – Portfolio Sitemap and Toolkit
 
-### Claude AI Project Setup
-- Created a dedicated learning project with custom instructions tailored to my Java Full Stack and Backend AI Engineering learning goals.
+## 📌 Objective
 
-### Anthropic Academy
-- Enrolled in the **AI Fluency: Framework & Foundations** course and completed the initial setup.
+Design a professional portfolio structure and prepare a toolkit to organize internship deliverables and future assignments.
+
+### ✅ Deliverables
+
+- Portfolio Sitemap
+- Toolkit Setup
+- Assignment Submission PDF
+- Supporting Screenshots
+
+### 🛠 Tools Used
+
+- GitHub
+- Git
+- ChatGPT
+- Claude AI
+
+### 📖 Learning Outcomes
+
+- Learned to organize a professional GitHub repository.
+- Designed a scalable folder structure for weekly assignments.
+- Improved Git version control workflow.
+- Understood the importance of maintaining technical documentation.
 
 ---
 
-## 📄 Submission
+# 📅 Week 1 Progress
 
-The complete assignment is available in:
-
-`Achyuta_Biswal_FL-01_AI_Workflow_Audit.pdf`
-
----
-
-## 📚 Learning Outcomes
-
-Through this assignment, I learned how to:
-
-- Analyze and optimize recurring workflows using AI.
-- Decide when to collaborate with AI versus completing tasks independently.
-- Configure AI tools for productive learning.
-- Organize assignments using Git and GitHub.
+| Assignment | Status |
+|------------|--------|
+| AI Workflow Audit and Tool Setup | ✅ Completed |
+| Portfolio Sitemap and Toolkit | ✅ Completed |
+| What Are You Proving? | ⏳ Pending |
 
 ---
 
-## 👨‍💻 Author
+# 🛠 Technologies & Tools
+
+- ChatGPT
+- Claude AI
+- Anthropic Academy
+- Git
+- GitHub
+- Markdown
+
+---
+
+# 👨‍💻 Author
 
 **Achyuta Biswal**
 
@@ -90,6 +123,14 @@ Through this assignment, I learned how to:
 - GIET Baniatangi
 - Aspiring Java Full Stack Developer
 
+GitHub: https://github.com/AchyutaBiswal
+
 ---
 
-> **Internship:** FlyRank Backend AI Engineering Internship (July 2026 Cohort)
+## 🙏 Acknowledgements
+
+Special thanks to **Leo** and **Eldin** for their guidance during the onboarding sessions and to the **FlyRank** team for providing a structured learning experience through the Backend AI Engineering Internship.
+
+---
+
+> **FlyRank Backend AI Engineering Internship — July 2026 Cohort**
