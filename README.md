@@ -1,22 +1,23 @@
 # 🚀 FlyRank Backend AI Engineering Internship
 
-Welcome to my **FlyRank Backend AI Engineering Internship** repository. This repository documents my learning journey, weekly assignments, and progress throughout the internship. Each week focuses on developing backend engineering skills, improving AI-assisted workflows, and building a professional portfolio.
+Welcome to my **FlyRank Backend AI Engineering Internship** repository. This repository documents my learning journey, weekly assignments, AI-assisted workflows, and backend engineering projects completed throughout the internship.
 
 ---
 
 ## 📌 Repository Overview
 
-This repository contains:
+This repository showcases:
 
 - 📚 Weekly internship assignments
-- 🤖 AI-assisted development workflow
-- 📖 Professional documentation
-- 💻 Backend engineering learning
-- 📝 Portfolio-building activities
+- 🤖 AI-assisted software development
+- 💻 Backend engineering concepts
+- 📝 Professional technical documentation
+- 🎯 Portfolio-building activities
+- 🚀 Continuous learning and skill development
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
 flyRank-backend-ai-internship/
@@ -29,7 +30,8 @@ flyRank-backend-ai-internship/
 │   └── 03-What-Are-You-Proving/
 │
 └── Week-02-General-AI-Fluency/
-    └── 01-Frame-It-as-Cases/
+    ├── 01-Frame-It-as-Cases/
+    └── 02-The-Prompt-Ladder/
 ```
 
 ---
@@ -42,99 +44,160 @@ flyRank-backend-ai-internship/
 | Week 1 | Portfolio Sitemap and Toolkit | ✅ Completed |
 | Week 1 | What Are You Proving? | ✅ Completed |
 | Week 2 | Frame It as Cases | ✅ Completed |
+| Week 2 | The Prompt Ladder | ✅ Completed |
 | Week 2 | Remaining Assignments | ⏳ In Progress |
 
 ---
 
 # 📖 Week 1 – General AI Fluency
 
-### Objective
+## 🎯 Objective
 
-Build a strong foundation for AI-assisted software development and define a clear professional direction.
+Build a strong foundation in AI-assisted software development, prompt engineering, and professional portfolio creation.
 
 ### ✅ Completed Assignments
 
-#### 1. AI Workflow Audit and Tool Setup
+### 1️⃣ AI Workflow Audit and Tool Setup
+
 - Evaluated my AI-assisted development workflow
-- Identified where AI improves productivity
+- Identified productivity improvements using AI
 - Established responsible AI usage practices
-- Documented development tools and workflow
+- Documented my complete development environment
 
-#### 2. Portfolio Sitemap and Toolkit
+---
+
+### 2️⃣ Portfolio Sitemap and Toolkit
+
 - Designed the structure of my professional portfolio
-- Planned sections including Home, About, Projects, Skills, Certifications, and Contact
-- Documented my development toolkit and workflow
+- Planned sections for projects, certifications, skills, and contact information
+- Documented the AI tools and development technologies used
 
-#### 3. What Are You Proving?
-Created a professional proof statement:
+---
 
-> *"I can design and implement secure, role-based backend systems using Java and Spring Boot with JWT authentication and Spring Security, demonstrated through real backend projects."*
+### 3️⃣ What Are You Proving?
 
-### 📚 Learning Outcomes
+Developed a professional proof statement demonstrating backend engineering capability.
+
+> **"I can design and implement secure, role-based backend systems using Java and Spring Boot with JWT authentication and Spring Security, demonstrated through real backend projects."**
+
+### 📚 Week 1 Learning Outcomes
 
 - AI-assisted development workflow
 - Portfolio planning
 - Professional documentation
 - Technical communication
-- Proof statement creation
+- Prompt engineering fundamentals
+- Personal branding
 
 ---
 
-# 📖 Week 2 – Frame It as Cases
+# 📖 Week 2 – General AI Fluency
 
-### Objective
+## 🎯 Objective
 
-Transform technical projects into professional case studies that clearly explain the problem, design decisions, implementation, and outcomes.
+Learn to communicate engineering work professionally by creating case studies and improving AI prompts through systematic iteration.
 
-### ✅ Completed Assignment
+---
 
-#### Frame It as Cases
+## ✅ Assignment 1 – Frame It as Cases
 
-Created professional case studies for:
+### Overview
 
-- Employee Task Management System
-- Railway Reservation System
-- FlyRank Backend AI Internship Assignments
+Converted technical projects into professional engineering case studies that explain:
 
-Additional deliverables:
+- The problem
+- Design decisions
+- Technical implementation
+- Challenges
+- Results
+- Lessons learned
 
+### Deliverables
+
+- Employee Task Management System Case Study
+- Railway Reservation System Case Study
+- FlyRank Internship Case Study
 - Voice Card
 - Professional Bio
 - Contact / Call-to-Action
-- Before vs. After Writing Example
+- Before vs After Writing Example
 
-### 📚 Learning Outcomes
+### Learning Outcomes
 
 - Technical storytelling
-- Case study writing
 - Professional documentation
 - AI-assisted writing
 - Portfolio presentation
+- Engineering communication
+
+---
+
+## ✅ Assignment 2 – The Prompt Ladder
+
+### Overview
+
+Built a structured prompt engineering workflow by improving a weak backend-development prompt through five controlled iterations.
+
+Each version introduced **exactly one prompt engineering layer**, allowing clear comparison of how each improvement affected the AI's output.
+
+### Prompt Engineering Layers
+
+- Weak Baseline Prompt
+- Clear Goal
+- Real Context
+- Specified Output Format
+- Constraints
+- Quality Criteria
+
+### Deliverables
+
+- Six complete prompt iterations
+- Representative AI outputs
+- Output comparison notes
+- Honest regression analysis
+- Final reusable production-ready prompt
+- Reflection on prompt engineering
+
+### Learning Outcomes
+
+- Prompt engineering
+- AI evaluation
+- Iterative refinement
+- Technical analysis
+- Backend prompt design
+- Professional documentation
 
 ---
 
 # 🛠 Technologies & Tools
 
-### Programming Languages
+## Programming Language
+
 - Java
 
-### Backend Technologies
+## Backend Technologies
+
 - Spring Boot
 - Spring Security
+- Spring Data JPA
 - JDBC
+- REST APIs
 
-### Database
+## Database
+
 - MySQL
 
-### Development Tools
+## Development Tools
+
 - Git
 - GitHub
 - Maven
 - Postman
-- Visual Studio Code
 - IntelliJ IDEA
+- Visual Studio Code
 
-### AI Tools
+## AI Tools
+
 - ChatGPT
 - Claude AI
 
@@ -142,55 +205,78 @@ Additional deliverables:
 
 # 🎯 Skills Developed
 
-- Backend Development
-- REST API Development
-- JWT Authentication
+- Java Backend Development
+- REST API Design
+- Spring Boot
 - Spring Security
+- Spring Data JPA
+- JDBC
+- JWT Authentication
 - Database Integration
 - Git & GitHub
-- Technical Documentation
+- Prompt Engineering
 - AI-Assisted Development
+- Technical Documentation
+- Technical Storytelling
+- Portfolio Development
+- Engineering Communication
 - Problem Solving
-- Technical Communication
 
 ---
 
 # 🏆 Achievements
 
-- ✅ Successfully completed **Week 1 – General AI Fluency**
-- ✅ Successfully completed **Week 2 – Frame It as Cases**
+- ✅ Completed Week 1 – General AI Fluency
+- ✅ Completed Week 2 – Frame It as Cases
+- ✅ Completed Week 2 – The Prompt Ladder
 - ✅ Developed a structured AI-assisted software development workflow
-- ✅ Created a professional proof statement and portfolio roadmap
-- ✅ Documented backend projects as technical case studies
-- ✅ Improved GitHub repository organization and documentation
-- ✅ Practiced using AI responsibly for learning, debugging, and documentation
+- ✅ Built professional backend engineering case studies
+- ✅ Learned systematic prompt engineering techniques
+- ✅ Improved technical documentation and communication
+- ✅ Organized a professional GitHub internship portfolio
 
 ---
 
 # 📈 Current Progress
 
-- ✅ Week 1 Completed
-- ✅ Week 2 Assignment 1 Completed
-- 🚧 Continuing the remaining internship modules
+| Module | Status |
+|---------|--------|
+| Week 1 | ✅ Completed |
+| Week 2 – Frame It as Cases | ✅ Completed |
+| Week 2 – The Prompt Ladder | ✅ Completed |
+| Remaining Week 2 Assignments | 🚧 In Progress |
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Achyuta Biswal**
+## Achyuta Biswal
 
 🎓 B.Tech – Computer Science & Engineering
 
-Backend AI Engineering Intern – FlyRank
+💼 Backend AI Engineering Intern – FlyRank
 
 📧 Email: achyutabiswal977@gmail.com
 
-🔗 GitHub: https://github.com/AchyutaBiswal
+🐙 GitHub: https://github.com/AchyutaBiswal
 
-🔗 LinkedIn: *(Add your LinkedIn profile URL)*
+💼 LinkedIn: *(Add your LinkedIn profile URL)*
 
 ---
 
-## ⭐ Acknowledgements
+# ⭐ Acknowledgements
 
-I would like to thank the **FlyRank** team and mentors for providing a structured learning experience that combines backend engineering, AI-assisted development, technical documentation, and portfolio building. This internship has helped me strengthen both my technical skills and my ability to communicate engineering decisions effectively.
+I sincerely thank the **FlyRank** team and mentors for providing a structured learning experience that combines backend engineering, AI-assisted development, prompt engineering, technical writing, and portfolio building.
+
+This internship has strengthened my technical skills, improved my engineering communication, and taught me how to use AI responsibly to design, develop, document, and continuously improve backend software systems.
+
+---
+
+## 🌟 Repository Highlights
+
+- 📚 Well-organized weekly assignments
+- 🤖 AI-assisted development workflow
+- 💻 Java & Spring Boot backend learning
+- 📝 Professional technical documentation
+- 🎯 Prompt engineering exercises
+- 📈 Continuous skill development throughout the FlyRank Internship
