@@ -1,6 +1,8 @@
 # 🚀 FlyRank Backend AI Engineering Internship
 
-Welcome to my **FlyRank Backend AI Engineering Internship** repository. This repository documents my learning journey, weekly assignments, AI-assisted workflows, prompt engineering exercises, and backend engineering projects completed throughout the internship.
+Welcome to my **FlyRank Backend AI Engineering Internship** repository.
+
+This repository documents my learning journey throughout the FlyRank Backend AI Engineering Internship, including weekly assignments, backend engineering projects, AI-assisted development workflows, prompt engineering exercises, and technical documentation.
 
 ---
 
@@ -8,13 +10,14 @@ Welcome to my **FlyRank Backend AI Engineering Internship** repository. This rep
 
 This repository showcases:
 
-* 📚 Weekly internship assignments
-* 🤖 AI-assisted software development
-* 💻 Backend engineering concepts
-* 🧠 Prompt engineering techniques
-* 📝 Professional technical documentation
-* 🎯 Portfolio-building activities
-* 🚀 Continuous learning and skill development
+- 📚 Weekly internship assignments
+- 💻 Backend engineering projects
+- 🤖 AI-assisted software development
+- 🧠 Prompt engineering techniques
+- 📝 Technical documentation
+- 🚀 Spring Boot REST API development
+- 🎯 Portfolio-building activities
+- 📈 Continuous learning and skill development
 
 ---
 
@@ -30,262 +33,299 @@ flyRank-backend-ai-internship/
 │   ├── 02-Portfolio-Sitemap-and-Toolkit/
 │   └── 03-What-Are-You-Proving/
 │
-└── Week-02-General-AI-Fluency/
-    ├── 01-Frame-It-as-Cases/
-    ├── 02-The-Prompt-Ladder/
-    └── 03-Prompting-Fundamentals-on-Real-Tasks/
+├── Week-02-General-AI-Fluency/
+│   ├── 01-Frame-It-as-Cases/
+│   ├── 02-The-Prompt-Ladder/
+│   └── 03-Prompting-Fundamentals-on-Real-Tasks/
+│
+└── Week-02-Backend-Foundations/
+    └── task-api/
+        ├── src/
+        ├── pom.xml
+        ├── README.md
+        └── screenshots/
 ```
 
 ---
 
 # 📅 Internship Progress
 
-| Week   | Assignment                           | Status        |
-| ------ | ------------------------------------ | ------------- |
-| Week 1 | AI Workflow Audit and Tool Setup     | ✅ Completed   |
-| Week 1 | Portfolio Sitemap and Toolkit        | ✅ Completed   |
-| Week 1 | What Are You Proving?                | ✅ Completed   |
-| Week 2 | Frame It as Cases                    | ✅ Completed   |
-| Week 2 | The Prompt Ladder                    | ✅ Completed   |
-| Week 2 | Prompting Fundamentals on Real Tasks | ✅ Completed   |
-| Week 2 | Remaining Assignments                | ⏳ In Progress |
+| Week | Assignment | Status |
+|------|------------|--------|
+| Week 1 | AI Workflow Audit and Tool Setup | ✅ Completed |
+| Week 1 | Portfolio Sitemap and Toolkit | ✅ Completed |
+| Week 1 | What Are You Proving? | ✅ Completed |
+| Week 2 | Frame It as Cases | ✅ Completed |
+| Week 2 | The Prompt Ladder | ✅ Completed |
+| Week 2 | Prompting Fundamentals on Real Tasks | ✅ Completed |
+| Week 2 | Backend Foundations – CRUD Task API | ✅ Completed |
 
 ---
 
 # 📖 Week 1 – General AI Fluency
 
-## 🎯 Objective
+## Objective
 
-Build a strong foundation in AI-assisted software development, prompt engineering, and professional portfolio creation.
+Build a strong foundation in AI-assisted software development and professional engineering workflows.
 
-### ✅ Completed Assignments
+### Completed Assignments
 
-### 1️⃣ AI Workflow Audit and Tool Setup
+### ✅ AI Workflow Audit and Tool Setup
 
-* Evaluated my AI-assisted development workflow
-* Identified productivity improvements using AI
-* Established responsible AI usage practices
-* Documented my complete development environment
-
----
-
-### 2️⃣ Portfolio Sitemap and Toolkit
-
-* Designed the structure of my professional portfolio
-* Planned sections for projects, certifications, skills, and contact information
-* Documented the AI tools and development technologies used
+- Evaluated AI-assisted development workflow
+- Identified productivity improvements
+- Established responsible AI practices
+- Documented development environment
 
 ---
 
-### 3️⃣ What Are You Proving?
+### ✅ Portfolio Sitemap and Toolkit
 
-Developed a professional proof statement demonstrating backend engineering capability.
+- Designed portfolio architecture
+- Planned project showcase
+- Organized technical documentation
 
-> **"I can design and implement secure, role-based backend systems using Java and Spring Boot with JWT authentication and Spring Security, demonstrated through real backend projects."**
+---
 
-### 📚 Week 1 Learning Outcomes
+### ✅ What Are You Proving?
 
-* AI-assisted development workflow
-* Portfolio planning
-* Professional documentation
-* Technical communication
-* Prompt engineering fundamentals
-* Personal branding
+Created a professional proof statement focused on backend engineering skills.
+
+> "I can design and implement secure backend systems using Java and Spring Boot while applying modern software engineering practices."
+
+### Week 1 Learning Outcomes
+
+- AI-assisted development
+- Technical communication
+- Portfolio planning
+- Prompt engineering basics
+- Professional documentation
 
 ---
 
 # 📖 Week 2 – General AI Fluency
 
-## 🎯 Objective
-
-Strengthen prompt engineering skills by applying structured prompting techniques to real-world backend engineering tasks and documenting the results professionally.
-
 ---
 
 ## ✅ Assignment 1 – Frame It as Cases
 
-### Overview
-
-Converted technical projects into professional engineering case studies that explain:
-
-* The problem
-* Design decisions
-* Technical implementation
-* Challenges
-* Results
-* Lessons learned
-
 ### Deliverables
 
-* Employee Task Management System Case Study
-* Railway Reservation System Case Study
-* FlyRank Internship Case Study
-* Voice Card
-* Professional Bio
-* Contact / Call-to-Action
-* Before vs. After Writing Example
+- Employee Task Management System Case Study
+- Railway Reservation System Case Study
+- Internship Case Study
+- Voice Card
+- Professional Bio
+- Portfolio Content
 
-### Learning Outcomes
+### Skills Learned
 
-* Technical storytelling
-* Professional documentation
-* AI-assisted writing
-* Portfolio presentation
-* Engineering communication
+- Technical storytelling
+- Engineering communication
+- AI-assisted writing
 
 ---
 
 ## ✅ Assignment 2 – The Prompt Ladder
 
-### Overview
-
-Built a structured prompt engineering workflow by improving a weak backend-development prompt through multiple controlled iterations.
-
-### Prompt Engineering Layers
-
-* Weak Baseline Prompt
-* Clear Goal
-* Real Context
-* Specified Output Format
-* Constraints
-* Quality Criteria
-
 ### Deliverables
 
-* Prompt iterations
-* AI outputs
-* Output comparison
-* Final production-ready prompt
-* Reflection
+- Prompt refinement process
+- Prompt comparison
+- Final optimized prompt
+- Reflection
 
-### Learning Outcomes
+### Skills Learned
 
-* Prompt engineering
-* AI evaluation
-* Iterative refinement
-* Technical analysis
-* Backend prompt design
+- Prompt engineering
+- AI evaluation
+- Structured prompting
 
 ---
 
 ## ✅ Assignment 3 – Prompting Fundamentals on Real Tasks
 
-### Overview
+### Real Project
 
-Applied prompt engineering techniques to a real backend project by progressively improving prompts and evaluating how each refinement enhanced AI-generated responses.
+Employee Task Management System
 
-### Real Task
+### Techniques Used
 
-**Employee Task Management System – JWT Role-Based Authentication**
+- Naive Prompt
+- Role Prompting
+- Context Prompting
+- Few-shot Prompting
+- Structured Output
+- Step-by-step Prompting
 
-### Prompt Engineering Techniques Applied
+### Skills Learned
 
-* Naive Prompt
-* Role Assignment
-* Context & Motivation
-* Few-shot Prompting
-* Output Structure
-* Step Decomposition
+- Prompt optimization
+- AI evaluation
+- Cross-model comparison
+- Reusable prompt templates
 
-### Deliverables
+---
 
-* Six prompt iterations
-* AI-generated responses
-* Observation after each iteration
-* Claude vs. ChatGPT comparison
-* Reusable prompt template
-* Reflection report
-* Prompt iteration log (PDF)
+# 📖 Week 2 – Backend Foundations
 
-### Learning Outcomes
+## 🚀 CRUD Task API using Spring Boot
 
-* Iterative prompt engineering
-* AI response evaluation
-* Cross-model comparison
-* Structured technical communication
-* Reusable prompt template design
-* AI-assisted interview preparation
+Built a complete RESTful Task Management API using Java and Spring Boot.
+
+## Features
+
+- Create Task
+- View All Tasks
+- View Task by ID
+- Update Task
+- Delete Task
+- Health Check API
+- Home API
+- Swagger UI Documentation
+- OpenAPI Integration
+
+---
+
+## REST API Endpoints
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| GET | / | Home API |
+| GET | /health | Health Check |
+| GET | /tasks | Get All Tasks |
+| GET | /tasks/{id} | Get Task By ID |
+| POST | /tasks | Create Task |
+| PUT | /tasks/{id} | Update Task |
+| DELETE | /tasks/{id} | Delete Task |
+
+---
+
+## API Testing
+
+Successfully tested all endpoints using Swagger UI.
+
+### Tested Operations
+
+- ✅ GET All Tasks
+- ✅ GET Task by ID
+- ✅ POST Create Task
+- ✅ PUT Update Task
+- ✅ DELETE Task
+
+---
+
+## Technologies Used
+
+- Java 21
+- Spring Boot 4
+- Spring Web MVC
+- Maven
+- Swagger / OpenAPI
+- REST APIs
+
+---
+
+## Learning Outcomes
+
+- Spring Boot project setup
+- REST API development
+- CRUD operations
+- Controller-Service architecture
+- Dependency Injection
+- JSON request/response handling
+- HTTP Status Codes
+- API documentation using Swagger
 
 ---
 
 # 🛠 Technologies & Tools
 
-## Programming Languages
+## Programming Language
 
-* Java
+- Java
 
-## Backend Technologies
+## Backend
 
-* Spring Boot
-* Spring Security
-* Spring Data JPA
-* JDBC
-* REST APIs
-* JWT Authentication
+- Spring Boot
+- Spring MVC
+- REST APIs
+- Spring Security
+- JDBC
+- Spring Data JPA
+- JWT Authentication
 
 ## Database
 
-* MySQL
+- MySQL
 
-## Development Tools
+## Build Tool
 
-* Git
-* GitHub
-* Maven
-* Postman
-* IntelliJ IDEA
-* Visual Studio Code
+- Maven
+
+## API Testing
+
+- Swagger UI
+- OpenAPI
+- Postman
+
+## IDE
+
+- IntelliJ IDEA
+- Visual Studio Code
+
+## Version Control
+
+- Git
+- GitHub
 
 ## AI Tools
 
-* ChatGPT
-* Claude AI
+- ChatGPT
+- Claude AI
 
 ---
 
 # 🎯 Skills Developed
 
-* Java Backend Development
-* REST API Design
-* Spring Boot
-* Spring Security
-* JWT Authentication
-* JDBC
-* Database Integration
-* Git & GitHub
-* Prompt Engineering
-* AI-Assisted Development
-* Technical Documentation
-* Technical Storytelling
-* Portfolio Development
-* Engineering Communication
-* Problem Solving
+- Java Backend Development
+- Spring Boot
+- REST API Design
+- CRUD Operations
+- Dependency Injection
+- Swagger Documentation
+- HTTP Methods
+- JSON Processing
+- Maven
+- Git & GitHub
+- Prompt Engineering
+- AI-assisted Development
+- Technical Writing
+- Portfolio Development
 
 ---
 
 # 🏆 Achievements
 
-* ✅ Completed Week 1 – General AI Fluency
-* ✅ Completed Week 2 – Frame It as Cases
-* ✅ Completed Week 2 – The Prompt Ladder
-* ✅ Completed Week 2 – Prompting Fundamentals on Real Tasks
-* ✅ Developed a structured AI-assisted software development workflow
-* ✅ Practiced advanced prompt engineering techniques
-* ✅ Compared AI model responses across Claude and ChatGPT
-* ✅ Built professional technical documentation
-* ✅ Organized a professional GitHub internship portfolio
+- ✅ Completed Week 1 Assignments
+- ✅ Completed Week 2 General AI Fluency Assignments
+- ✅ Built RESTful CRUD Task API
+- ✅ Implemented Swagger Documentation
+- ✅ Practiced Backend API Design
+- ✅ Improved Prompt Engineering Skills
+- ✅ Created Professional Technical Documentation
+- ✅ Maintained Organized GitHub Repository
 
 ---
 
 # 📈 Current Progress
 
-| Module                                        | Status         |
-| --------------------------------------------- | -------------- |
-| Week 1                                        | ✅ Completed    |
-| Week 2 – Frame It as Cases                    | ✅ Completed    |
-| Week 2 – The Prompt Ladder                    | ✅ Completed    |
-| Week 2 – Prompting Fundamentals on Real Tasks | ✅ Completed    |
-| Remaining Week 2 Assignments                  | 🚧 In Progress |
+| Module | Status |
+|---------|--------|
+| Week 1 | ✅ Completed |
+| Week 2 – General AI Fluency | ✅ Completed |
+| Week 2 – Backend Foundations | ✅ Completed |
+| Remaining Internship Modules | 🚧 In Progress |
 
 ---
 
@@ -297,29 +337,35 @@ Applied prompt engineering techniques to a real backend project by progressively
 
 💼 Backend AI Engineering Intern – FlyRank
 
-📧 Email: [achyutabiswal977@gmail.com](mailto:achyutabiswal977@gmail.com)
+📧 Email: achyutabiswal977@gmail.com
 
-🐙 GitHub: https://github.com/AchyutaBiswal
+🐙 GitHub
 
-💼 LinkedIn: *(Add your LinkedIn profile URL)*
+https://github.com/AchyutaBiswal
+
+💼 LinkedIn
+
+(Add your LinkedIn Profile URL)
 
 ---
 
-# ⭐ Acknowledgements
+# 🙏 Acknowledgements
 
-I sincerely thank the **FlyRank** team and mentors for providing a structured learning experience that combines backend engineering, AI-assisted development, prompt engineering, technical writing, and portfolio building.
+I sincerely thank the FlyRank team and mentors for providing an industry-focused internship that combines backend engineering, AI-assisted software development, prompt engineering, and professional portfolio building.
 
-This internship has strengthened my backend development skills, improved my prompt engineering abilities, enhanced my technical communication, and reinforced the importance of using AI responsibly throughout the software development lifecycle.
+This internship has significantly strengthened my knowledge of Java backend development, Spring Boot, REST APIs, prompt engineering, technical writing, and software engineering best practices.
 
 ---
 
 # 🌟 Repository Highlights
 
-* 📚 Well-organized weekly internship assignments
-* 🤖 AI-assisted software development workflow
-* 💻 Java & Spring Boot backend learning
-* 🧠 Practical prompt engineering exercises
-* 📝 Professional technical documentation
-* 🎯 Portfolio-building activities
-* 📊 Cross-model AI evaluation (Claude & ChatGPT)
-* 🚀 Continuous learning throughout the FlyRank Backend AI Engineering Internship
+- 📚 Well-organized weekly assignments
+- 💻 Spring Boot backend projects
+- 🚀 REST API development
+- 📄 Swagger API documentation
+- 🤖 AI-assisted software development
+- 🧠 Prompt engineering exercises
+- 📝 Professional technical documentation
+- 🎯 Portfolio-building activities
+- 📊 Claude vs ChatGPT comparisons
+- 📈 Continuous learning journey
