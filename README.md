@@ -16,6 +16,8 @@ This repository showcases:
 - 🧠 Prompt engineering techniques
 - 📝 Technical documentation
 - 🚀 Spring Boot REST API development
+- 🗄 Database Integration
+- 🐳 Backend engineering foundations
 - 🎯 Portfolio-building activities
 - 📈 Continuous learning and skill development
 
@@ -38,12 +40,16 @@ flyRank-backend-ai-internship/
 │   ├── 02-The-Prompt-Ladder/
 │   └── 03-Prompting-Fundamentals-on-Real-Tasks/
 │
-└── Week-02-Backend-Foundations/
-    └── task-api/
-        ├── src/
-        ├── pom.xml
+├── Week-02-Backend-Foundations/
+│   └── task-api/
+│
+└── Week-03-Backend-Foundations/
+    ├── README.md
+    │
+    └── Assignment-A2-Connecting-to-the-Database/
         ├── README.md
-        └── screenshots/
+        ├── screenshots/
+        └── task-api/
 ```
 
 ---
@@ -59,6 +65,7 @@ flyRank-backend-ai-internship/
 | Week 2 | The Prompt Ladder | ✅ Completed |
 | Week 2 | Prompting Fundamentals on Real Tasks | ✅ Completed |
 | Week 2 | Backend Foundations – CRUD Task API | ✅ Completed |
+| Week 3 | Backend Foundations – Connecting to the Database | ✅ Completed |
 
 ---
 
@@ -73,11 +80,8 @@ Build a strong foundation in AI-assisted software development and professional e
 ### ✅ AI Workflow Audit and Tool Setup
 
 - Evaluated AI-assisted development workflow
-- Identified productivity improvements
 - Established responsible AI practices
 - Documented development environment
-
----
 
 ### ✅ Portfolio Sitemap and Toolkit
 
@@ -85,69 +89,51 @@ Build a strong foundation in AI-assisted software development and professional e
 - Planned project showcase
 - Organized technical documentation
 
----
-
 ### ✅ What Are You Proving?
 
-Created a professional proof statement focused on backend engineering skills.
+Created a professional proof statement focused on backend engineering.
 
-> "I can design and implement secure backend systems using Java and Spring Boot while applying modern software engineering practices."
+### Skills Learned
 
-### Week 1 Learning Outcomes
-
-- AI-assisted development
-- Technical communication
-- Portfolio planning
-- Prompt engineering basics
-- Professional documentation
+- AI-assisted Development
+- Technical Writing
+- Portfolio Planning
+- Prompt Engineering
+- Professional Documentation
 
 ---
 
 # 📖 Week 2 – General AI Fluency
 
----
-
 ## ✅ Assignment 1 – Frame It as Cases
+
+Completed professional case studies based on real backend projects.
 
 ### Deliverables
 
-- Employee Task Management System Case Study
-- Railway Reservation System Case Study
+- Employee Task Management System
+- Railway Reservation System
 - Internship Case Study
 - Voice Card
 - Professional Bio
-- Portfolio Content
-
-### Skills Learned
-
-- Technical storytelling
-- Engineering communication
-- AI-assisted writing
 
 ---
 
 ## ✅ Assignment 2 – The Prompt Ladder
 
-### Deliverables
-
-- Prompt refinement process
-- Prompt comparison
-- Final optimized prompt
-- Reflection
+Completed prompt refinement exercises.
 
 ### Skills Learned
 
-- Prompt engineering
-- AI evaluation
-- Structured prompting
+- Prompt Engineering
+- AI Evaluation
+- Structured Prompting
 
 ---
 
-## ✅ Assignment 3 – Prompting Fundamentals on Real Tasks
+## ✅ Assignment 3 – Prompting Fundamentals
 
-### Real Project
-
-Employee Task Management System
+Applied multiple prompting strategies to a real Java Spring Boot project.
 
 ### Techniques Used
 
@@ -155,15 +141,8 @@ Employee Task Management System
 - Role Prompting
 - Context Prompting
 - Few-shot Prompting
-- Structured Output
 - Step-by-step Prompting
-
-### Skills Learned
-
-- Prompt optimization
-- AI evaluation
-- Cross-model comparison
-- Reusable prompt templates
+- Structured Output
 
 ---
 
@@ -171,28 +150,82 @@ Employee Task Management System
 
 ## 🚀 CRUD Task API using Spring Boot
 
-Built a complete RESTful Task Management API using Java and Spring Boot.
+Built a RESTful Task Management API.
 
-## Features
+### Features
 
 - Create Task
-- View All Tasks
-- View Task by ID
+- Read Tasks
 - Update Task
 - Delete Task
-- Health Check API
-- Home API
-- Swagger UI Documentation
-- OpenAPI Integration
+- Swagger Documentation
+- OpenAPI
+- REST APIs
+
+### REST Endpoints
+
+| Method | Endpoint |
+|---------|----------|
+| GET | / |
+| GET | /health |
+| GET | /tasks |
+| GET | /tasks/{id} |
+| POST | /tasks |
+| PUT | /tasks/{id} |
+| DELETE | /tasks/{id} |
+
+### Learning Outcomes
+
+- Spring Boot
+- REST APIs
+- CRUD Operations
+- Swagger
+- JSON
+- Dependency Injection
 
 ---
 
-## REST API Endpoints
+# 📖 Week 3 – Backend Foundations
+
+# ✅ Assignment A2 – Connecting to the Database
+
+Enhanced the existing CRUD Task API by integrating a persistent SQLite database using Spring JDBC.
+
+## Features
+
+- SQLite Database Integration
+- Spring JDBC
+- Persistent Storage
+- Automatic Table Creation
+- Initial Sample Data
+- Full CRUD Operations
+- Swagger API Testing
+- SQL Verification
+
+---
+
+## Database
+
+SQLite Database
+
+Table:
+
+```
+tasks
+```
+
+Columns
+
+- id
+- title
+- done
+
+---
+
+## REST API
 
 | Method | Endpoint | Description |
 |---------|----------|-------------|
-| GET | / | Home API |
-| GET | /health | Health Check |
 | GET | /tasks | Get All Tasks |
 | GET | /tasks/{id} | Get Task By ID |
 | POST | /tasks | Create Task |
@@ -201,78 +234,61 @@ Built a complete RESTful Task Management API using Java and Spring Boot.
 
 ---
 
-## API Testing
+## Assignment Deliverables
 
-Successfully tested all endpoints using Swagger UI.
-
-### Tested Operations
-
-- ✅ GET All Tasks
-- ✅ GET Task by ID
-- ✅ POST Create Task
-- ✅ PUT Update Task
-- ✅ DELETE Task
+- SQLite integrated successfully
+- Spring JDBC configured
+- CRUD persisted in database
+- SQL queries verified
+- Database Browser screenshots
+- Swagger screenshots
+- Documentation completed
 
 ---
 
-## Technologies Used
+## Skills Learned
+
+- SQLite
+- Spring JDBC
+- SQL
+- Database Persistence
+- DataSource Configuration
+- SQL Table Creation
+- CRUD with Database
+- REST API Testing
+
+---
+
+# 🛠 Technologies Used
+
+## Programming
 
 - Java 21
-- Spring Boot 4
-- Spring Web MVC
-- Maven
-- Swagger / OpenAPI
-- REST APIs
-
----
-
-## Learning Outcomes
-
-- Spring Boot project setup
-- REST API development
-- CRUD operations
-- Controller-Service architecture
-- Dependency Injection
-- JSON request/response handling
-- HTTP Status Codes
-- API documentation using Swagger
-
----
-
-# 🛠 Technologies & Tools
-
-## Programming Language
-
-- Java
 
 ## Backend
 
 - Spring Boot
 - Spring MVC
+- Spring JDBC
 - REST APIs
-- Spring Security
-- JDBC
-- Spring Data JPA
-- JWT Authentication
 
 ## Database
 
-- MySQL
+- SQLite
+
+## Documentation
+
+- Swagger UI
+- OpenAPI
 
 ## Build Tool
 
 - Maven
 
-## API Testing
-
-- Swagger UI
-- OpenAPI
-- Postman
-
 ## IDE
 
 - IntelliJ IDEA
-- Visual Studio Code
+- VS Code
 
 ## Version Control
 
@@ -290,30 +306,29 @@ Successfully tested all endpoints using Swagger UI.
 
 - Java Backend Development
 - Spring Boot
+- Spring JDBC
+- SQLite
 - REST API Design
 - CRUD Operations
+- SQL
 - Dependency Injection
 - Swagger Documentation
-- HTTP Methods
-- JSON Processing
-- Maven
 - Git & GitHub
 - Prompt Engineering
 - AI-assisted Development
 - Technical Writing
-- Portfolio Development
 
 ---
 
 # 🏆 Achievements
 
 - ✅ Completed Week 1 Assignments
-- ✅ Completed Week 2 General AI Fluency Assignments
-- ✅ Built RESTful CRUD Task API
-- ✅ Implemented Swagger Documentation
-- ✅ Practiced Backend API Design
-- ✅ Improved Prompt Engineering Skills
-- ✅ Created Professional Technical Documentation
+- ✅ Completed Week 2 General AI Fluency
+- ✅ Built RESTful CRUD API
+- ✅ Integrated SQLite Database
+- ✅ Implemented Persistent Storage
+- ✅ Verified SQL Operations
+- ✅ Documented API using Swagger
 - ✅ Maintained Organized GitHub Repository
 
 ---
@@ -321,10 +336,11 @@ Successfully tested all endpoints using Swagger UI.
 # 📈 Current Progress
 
 | Module | Status |
-|---------|--------|
+|--------|--------|
 | Week 1 | ✅ Completed |
-| Week 2 – General AI Fluency | ✅ Completed |
-| Week 2 – Backend Foundations | ✅ Completed |
+| Week 2 General AI Fluency | ✅ Completed |
+| Week 2 Backend Foundations | ✅ Completed |
+| Week 3 Backend Foundations | ✅ Completed |
 | Remaining Internship Modules | 🚧 In Progress |
 
 ---
@@ -337,7 +353,7 @@ Successfully tested all endpoints using Swagger UI.
 
 💼 Backend AI Engineering Intern – FlyRank
 
-📧 Email: achyutabiswal977@gmail.com
+📧 achyutabiswal977@gmail.com
 
 🐙 GitHub
 
@@ -345,27 +361,25 @@ https://github.com/AchyutaBiswal
 
 💼 LinkedIn
 
-(Add your LinkedIn Profile URL)
+(Add Your LinkedIn Profile)
 
 ---
 
 # 🙏 Acknowledgements
 
-I sincerely thank the FlyRank team and mentors for providing an industry-focused internship that combines backend engineering, AI-assisted software development, prompt engineering, and professional portfolio building.
-
-This internship has significantly strengthened my knowledge of Java backend development, Spring Boot, REST APIs, prompt engineering, technical writing, and software engineering best practices.
+Thanks to the FlyRank mentors and team for providing an industry-oriented internship focused on backend engineering, AI-assisted software development, prompt engineering, and professional portfolio development.
 
 ---
 
 # 🌟 Repository Highlights
 
-- 📚 Well-organized weekly assignments
-- 💻 Spring Boot backend projects
-- 🚀 REST API development
-- 📄 Swagger API documentation
-- 🤖 AI-assisted software development
-- 🧠 Prompt engineering exercises
-- 📝 Professional technical documentation
-- 🎯 Portfolio-building activities
-- 📊 Claude vs ChatGPT comparisons
-- 📈 Continuous learning journey
+- 📚 Weekly Internship Assignments
+- 💻 Java Spring Boot Projects
+- 🚀 REST API Development
+- 🗄 SQLite Database Integration
+- 📄 Swagger Documentation
+- 🤖 AI-assisted Development
+- 🧠 Prompt Engineering
+- 📝 Technical Documentation
+- 📊 Portfolio Building
+- 📈 Continuous Learning Journey
