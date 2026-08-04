@@ -16,8 +16,9 @@ This repository showcases:
 - 🧠 Prompt engineering techniques
 - 📝 Technical documentation
 - 🚀 Spring Boot REST API development
-- 🗄 Database Integration
-- 🐳 Backend engineering foundations
+- 🗄 Database integration with Spring JDBC & SQLite
+- 📄 Swagger & OpenAPI documentation
+- 🎨 Personal branding and portfolio design
 - 🎯 Portfolio-building activities
 - 📈 Continuous learning and skill development
 
@@ -30,12 +31,12 @@ flyRank-backend-ai-internship/
 │
 ├── README.md
 │
-├── Week-01-General-AI-Fluency/
+├── week-01-General-AI-Fluency/
 │   ├── 01-AI-Workflow-Audit-and-Tool-Setup/
 │   ├── 02-Portfolio-Sitemap-and-Toolkit/
 │   └── 03-What-Are-You-Proving/
 │
-├── Week-02-General-AI-Fluency/
+├── week-02-General-AI-Fluency/
 │   ├── 01-Frame-It-as-Cases/
 │   ├── 02-The-Prompt-Ladder/
 │   └── 03-Prompting-Fundamentals-on-Real-Tasks/
@@ -43,9 +44,13 @@ flyRank-backend-ai-internship/
 ├── Week-02-Backend-Foundations/
 │   └── task-api/
 │
+├── week-03-General-AI-Fluency/
+│   ├── 01-Decide-Once-Build-Your-Identity-Kit/
+│   ├── 02-Kill-Your-Darlings-Curate-Your-Images/
+│   └── README.md
+│
 └── Week-03-Backend-Foundations/
     ├── README.md
-    │
     └── Assignment-A2-Connecting-to-the-Database/
         ├── README.md
         ├── screenshots/
@@ -65,6 +70,8 @@ flyRank-backend-ai-internship/
 | Week 2 | The Prompt Ladder | ✅ Completed |
 | Week 2 | Prompting Fundamentals on Real Tasks | ✅ Completed |
 | Week 2 | Backend Foundations – CRUD Task API | ✅ Completed |
+| Week 3 | Decide Once – Build Your Identity Kit | ✅ Completed |
+| Week 3 | Kill Your Darlings – Curate Your Images | ✅ Completed |
 | Week 3 | Backend Foundations – Connecting to the Database | ✅ Completed |
 
 ---
@@ -107,7 +114,7 @@ Created a professional proof statement focused on backend engineering.
 
 ## ✅ Assignment 1 – Frame It as Cases
 
-Completed professional case studies based on real backend projects.
+Completed professional case studies based on real backend engineering projects.
 
 ### Deliverables
 
@@ -121,28 +128,29 @@ Completed professional case studies based on real backend projects.
 
 ## ✅ Assignment 2 – The Prompt Ladder
 
-Completed prompt refinement exercises.
+Completed prompt refinement exercises to improve AI-assisted software development.
 
 ### Skills Learned
 
 - Prompt Engineering
 - AI Evaluation
 - Structured Prompting
+- Iterative Prompt Design
 
 ---
 
-## ✅ Assignment 3 – Prompting Fundamentals
+## ✅ Assignment 3 – Prompting Fundamentals on Real Tasks
 
-Applied multiple prompting strategies to a real Java Spring Boot project.
+Applied multiple prompting strategies to a Java Spring Boot backend project.
 
 ### Techniques Used
 
-- Naive Prompt
+- Naive Prompting
 - Role Prompting
 - Context Prompting
 - Few-shot Prompting
 - Step-by-step Prompting
-- Structured Output
+- Structured Output Prompting
 
 ---
 
@@ -150,7 +158,7 @@ Applied multiple prompting strategies to a real Java Spring Boot project.
 
 ## 🚀 CRUD Task API using Spring Boot
 
-Built a RESTful Task Management API.
+Developed a RESTful Task Management API using Spring Boot.
 
 ### Features
 
@@ -158,9 +166,9 @@ Built a RESTful Task Management API.
 - Read Tasks
 - Update Task
 - Delete Task
-- Swagger Documentation
-- OpenAPI
-- REST APIs
+- Swagger UI
+- OpenAPI Documentation
+- RESTful Architecture
 
 ### REST Endpoints
 
@@ -174,7 +182,7 @@ Built a RESTful Task Management API.
 | PUT | /tasks/{id} |
 | DELETE | /tasks/{id} |
 
-### Learning Outcomes
+### Skills Learned
 
 - Spring Boot
 - REST APIs
@@ -185,13 +193,61 @@ Built a RESTful Task Management API.
 
 ---
 
+# 📖 Week 3 – General AI Fluency
+
+## ✅ Assignment 1 – Decide Once: Build Your Identity Kit
+
+Designed a professional personal brand identity to ensure consistency across GitHub, LinkedIn, resumes, portfolio websites, and technical documentation.
+
+### Deliverables
+
+- Identity Kit PDF
+- Personal Logo
+- Typography Guide
+- Brand Color Palette
+- Style Guidelines
+
+### Skills Learned
+
+- Personal Branding
+- Design Consistency
+- Visual Identity
+- Portfolio Design
+- Professional Documentation
+
+---
+
+## ✅ Assignment 2 – Kill Your Darlings: Curate Your Images
+
+Curated a professional image library by selecting authentic screenshots and using AI-generated visuals only for decorative elements.
+
+### Deliverables
+
+- GitHub Screenshot
+- Spring Boot Project Screenshot
+- Swagger UI Screenshot
+- LinkedIn Screenshot
+- AI Hero Background
+- Technology Icons
+- Image Selection Report
+
+### Skills Learned
+
+- Image Curation
+- AI Image Generation
+- Portfolio Storytelling
+- Visual Communication
+- Design Consistency
+
+---
+
 # 📖 Week 3 – Backend Foundations
 
-# ✅ Assignment A2 – Connecting to the Database
+## ✅ Assignment A2 – Connecting to the Database
 
-Enhanced the existing CRUD Task API by integrating a persistent SQLite database using Spring JDBC.
+Enhanced the CRUD Task API by integrating a persistent SQLite database using Spring JDBC.
 
-## Features
+### Features
 
 - SQLite Database Integration
 - Spring JDBC
@@ -202,27 +258,19 @@ Enhanced the existing CRUD Task API by integrating a persistent SQLite database 
 - Swagger API Testing
 - SQL Verification
 
----
+### Database
 
-## Database
+**Database:** SQLite
 
-SQLite Database
+**Table:** `tasks`
 
-Table:
-
-```
-tasks
-```
-
-Columns
+**Columns**
 
 - id
 - title
 - done
 
----
-
-## REST API
+### REST API
 
 | Method | Endpoint | Description |
 |---------|----------|-------------|
@@ -232,29 +280,23 @@ Columns
 | PUT | /tasks/{id} | Update Task |
 | DELETE | /tasks/{id} | Delete Task |
 
----
+### Assignment Deliverables
 
-## Assignment Deliverables
+- SQLite Integration
+- Spring JDBC Configuration
+- Persistent CRUD Operations
+- SQL Query Verification
+- Database Browser Screenshots
+- Swagger Documentation
+- Technical Documentation
 
-- SQLite integrated successfully
-- Spring JDBC configured
-- CRUD persisted in database
-- SQL queries verified
-- Database Browser screenshots
-- Swagger screenshots
-- Documentation completed
-
----
-
-## Skills Learned
+### Skills Learned
 
 - SQLite
 - Spring JDBC
 - SQL
 - Database Persistence
 - DataSource Configuration
-- SQL Table Creation
-- CRUD with Database
 - REST API Testing
 
 ---
@@ -263,7 +305,7 @@ Columns
 
 ## Programming
 
-- Java 21
+- Java 23
 
 ## Backend
 
@@ -317,19 +359,37 @@ Columns
 - Prompt Engineering
 - AI-assisted Development
 - Technical Writing
+- Personal Branding
+- Portfolio Design
 
 ---
 
 # 🏆 Achievements
 
-- ✅ Completed Week 1 Assignments
+- ✅ Completed Week 1 General AI Fluency
 - ✅ Completed Week 2 General AI Fluency
+- ✅ Completed Week 2 Backend Foundations
+- ✅ Completed Week 3 General AI Fluency
+- ✅ Completed Week 3 Backend Foundations
 - ✅ Built RESTful CRUD API
 - ✅ Integrated SQLite Database
-- ✅ Implemented Persistent Storage
-- ✅ Verified SQL Operations
-- ✅ Documented API using Swagger
-- ✅ Maintained Organized GitHub Repository
+- ✅ Designed a Professional Identity Kit
+- ✅ Curated Portfolio Images
+- ✅ Documented APIs with Swagger
+- ✅ Maintained an Organized GitHub Repository
+
+---
+
+# 📊 Repository Statistics
+
+| Metric | Value |
+|--------|------:|
+| Internship Weeks Completed | 3 |
+| Assignments Completed | 10+ |
+| Backend Projects | 2 |
+| Database Projects | 1 |
+| REST APIs Built | 2 |
+| Documentation Files | Comprehensive |
 
 ---
 
@@ -337,9 +397,10 @@ Columns
 
 | Module | Status |
 |--------|--------|
-| Week 1 | ✅ Completed |
+| Week 1 General AI Fluency | ✅ Completed |
 | Week 2 General AI Fluency | ✅ Completed |
 | Week 2 Backend Foundations | ✅ Completed |
+| Week 3 General AI Fluency | ✅ Completed |
 | Week 3 Backend Foundations | ✅ Completed |
 | Remaining Internship Modules | 🚧 In Progress |
 
@@ -349,25 +410,21 @@ Columns
 
 ## Achyuta Biswal
 
-🎓 B.Tech – Computer Science & Engineering
+🎓 **B.Tech – Computer Science & Engineering**
 
-💼 Backend AI Engineering Intern – FlyRank
+💼 **Backend AI Engineering Intern – FlyRank**
 
-📧 achyutabiswal977@gmail.com
+📧 **Email:** achyutabiswal977@gmail.com
 
-🐙 GitHub
+🐙 **GitHub:** https://github.com/AchyutaBiswal
 
-https://github.com/AchyutaBiswal
-
-💼 LinkedIn
-
-(Add Your LinkedIn Profile)
+💼 **LinkedIn:** *(Add your LinkedIn profile URL here)*
 
 ---
 
 # 🙏 Acknowledgements
 
-Thanks to the FlyRank mentors and team for providing an industry-oriented internship focused on backend engineering, AI-assisted software development, prompt engineering, and professional portfolio development.
+Special thanks to the **FlyRank** mentors and team for providing an industry-oriented internship focused on backend engineering, AI-assisted software development, prompt engineering, and professional portfolio development.
 
 ---
 
@@ -380,6 +437,9 @@ Thanks to the FlyRank mentors and team for providing an industry-oriented intern
 - 📄 Swagger Documentation
 - 🤖 AI-assisted Development
 - 🧠 Prompt Engineering
+- 🎨 Personal Branding
 - 📝 Technical Documentation
 - 📊 Portfolio Building
 - 📈 Continuous Learning Journey
+
+⭐ **If you found this repository helpful, consider giving it a star!**
