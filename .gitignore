@@ -1,0 +1,54 @@
+# Maven
+target/
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot
+HELP.md
+
+# Environment variables
+.env
+
+# Database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
+.sts4-cache/
+
+# VS Code
+.vscode/
+
+# Build files
+build/
+.gradle/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo

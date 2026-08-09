@@ -1,0 +1,9 @@
+target/
+.git/
+.idea/
+*.iml
+.env
+tasks.db
+*.db
+*.sqlite
+*.sqlite3
