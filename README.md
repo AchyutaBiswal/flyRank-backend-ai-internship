@@ -418,7 +418,7 @@ Enhanced the CRUD Task API by integrating a persistent SQLite database using Spr
 
 🐙 **GitHub:** https://github.com/AchyutaBiswal
 
-💼 **LinkedIn:** *(Add your LinkedIn profile URL here)*
+💼 **LinkedIn:** https://www.linkedin.com/in/achyuta-biswal
 
 ---
 
