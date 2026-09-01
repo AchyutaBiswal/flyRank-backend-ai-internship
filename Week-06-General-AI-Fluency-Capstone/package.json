@@ -1,0 +1,23 @@
+{
+  "name": "achyuta-ai-portfolio-career-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "description": "FlyRank General AI Fluency capstone portfolio and AI career assistant.",
+  "scripts": {
+    "dev": "npm run dev --workspace frontend",
+    "dev:frontend": "npm run dev --workspace frontend",
+    "dev:backend": "npm run dev --workspace backend",
+    "dev:agent": "npm run dev --workspace ai-agent",
+    "build": "npm run build --workspace frontend",
+    "start:backend": "npm run start --workspace backend",
+    "start:agent": "npm run start --workspace ai-agent"
+  },
+  "workspaces": [
+    "frontend",
+    "backend",
+    "ai-agent"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
