@@ -1,0 +1,21 @@
+{
+  "started_at": "2026-09-02T06:20:48.419Z",
+  "finished_at": "2026-09-02T06:20:49.662Z",
+  "duration_ms": 1243,
+  "catalogue_pages_fetched": 3,
+  "catalogue_pages_cache_hits": 3,
+  "detail_pages_fetched": 60,
+  "detail_pages_cache_hits": 60,
+  "total_cache_hits": 63,
+  "unique_books_discovered": 61,
+  "valid_records": 60,
+  "invalid_records": 0,
+  "failed_pages": 1,
+  "failed_page_details": [
+    {
+      "url": "https://books.toscrape.com/catalogue/this-book-does-not-exist-000000/index.html",
+      "stage": "detail",
+      "reason": "Unexpected status 404 for https://books.toscrape.com/catalogue/this-book-does-not-exist-000000/index.html"
+    }
+  ]
+}

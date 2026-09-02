@@ -1,0 +1,18 @@
+{
+  "name": "flyrank-polite-scraper",
+  "version": "1.0.0",
+  "description": "FlyRank Internship - Week 5 / A9 - The polite scraper (Books to Scrape)",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "start:fault": "node src/index.js --inject-fault",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "zod": "^3.23.8"
+  }
+}
