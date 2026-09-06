@@ -1,0 +1,42 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  application:
+    name: feedback-intelligence-platform
+
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/flyrank_feedback?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:root}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+      data-locations: classpath:data.sql
+      continue-on-error: true
+
+  cache:
+    type: simple
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:change-this-super-secret-key-before-deploying-to-production-1234567890}
+    expiration-ms: ${JWT_EXPIRATION_MS:86400000}
+
+  llm:
+    api-url: ${LLM_API_URL:https://api.openai.com/v1/chat/completions}
+    api-key: ${LLM_API_KEY:}
+    model: ${LLM_MODEL:gpt-4o-mini}
+    enabled: ${LLM_ENABLED:true}
+
+  reports:
+    output-dir: ${REPORTS_DIR:./reports}
+    scheduler-cron: ${REPORTS_CRON:0 0 1 * * *}
+
+logging:
+  level:
+    root: INFO
+    com.flyrank.feedback: DEBUG
